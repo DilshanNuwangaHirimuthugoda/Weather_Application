@@ -33,7 +33,8 @@ weather-app/
 *   Display a 5-day weather forecast[5].
 
 ## Demo
-You can view the live demo of the app [here](https://www.example.com) (replace with your actual demo link if hosted).
+You can view the live demo of the app [here](https://dilshannuwangahirimuthugoda.github.io/WeatherApp/
+) 
 
 ## Technologies Used
 *   HTML – Structure of the webpage[1][3].
