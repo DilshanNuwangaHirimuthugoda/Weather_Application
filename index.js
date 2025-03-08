@@ -8,3 +8,22 @@ search.addEventListener('click', () => {
 
     const APIKey = "981e96c96aaec017e4457ae21a92e646";
     const city = document.querySelector('.search-box input').value;
+
+
+    if (city === '')
+        return;
+
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}`)
+
+        .then(response => response.json())
+        .then(jason => {
+            if (jason.cod === '404'){
+                container.style.height = '400px';
+                weatherBox.style.display = 'none';
+                weatherDetails.style.display = 'none';
+                error404.style.display = 'block';
+                error404.classList.add('fadeIn');
+                return;
+            }
+            error404.style.display = 'none';
+            error404.classList.remove('fadeIn');
