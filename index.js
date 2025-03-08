@@ -59,3 +59,18 @@ search.addEventListener('click', () => {
                 default:
                     image.src = '';
             }
+            temperature.innerHTML = `${parseInt(jason.main.temp)}<span>°C</span>`;
+            description.innerHTML = `${jason.weather[0].description}`;
+            humidity.innerHTML = `${jason.main.humidity}%`;
+            wind.innerHTML = `${parseInt(jason.wind.speed)} km/h`;
+
+            weatherBox.style.display = '';
+            weatherDetails.style.display = '';
+            weatherBox.classList.add('fadeIn');
+            weatherDetails.classList.add('fadeIn');
+            container.style.height = '500px';
+
+        });
+                        
+
+}); 
