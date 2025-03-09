@@ -24,13 +24,12 @@ weather-app/
 8.  [License](#license)
 
 ## Features
-*   Search for weather by city name[2][4].
-*   Displays the current temperature, weather description, humidity, and wind speed[2][9].
+*   Search for weather by city name.
+*   Displays the current temperature, weather description, humidity, and wind speed.
 *   Different weather icons based on the weather condition (Clear, Rain, Snow, Clouds, Haze).
-*   Error message for invalid locations[2][4].
-*   Mobile-friendly design[5].
-*   Option to use current location for weather details[5].
-*   Display a 5-day weather forecast[5].
+*   Error message for invalid locations.
+*   Mobile-friendly design.
+*   Option to use current location for weather details.
 
 ## Demo
 You can view the live demo of the app [here](https://dilshannuwangahirimuthugoda.github.io/WeatherApp/
