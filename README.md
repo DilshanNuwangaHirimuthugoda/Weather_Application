@@ -1,4 +1,4 @@
-# Weather App
+# Weather Application
 
 A simple and interactive weather application that lets users check the weather based on their location. Built using HTML, CSS, and JavaScript, this app fetches weather data from the OpenWeather API and displays it with a clean and responsive design.
 
