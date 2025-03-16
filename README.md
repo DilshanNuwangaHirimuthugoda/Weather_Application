@@ -32,7 +32,7 @@ weather-app/
 *   Option to use current location for weather details.
 
 ## Demo
-You can view the live demo of the app [here]( https://dilshannuwangahirimuthugoda.github.io/Weather_Application/   ) 
+You can view the live demo of the app [here](https://dilshannuwangahirimuthugoda.github.io/Weather_Application/) 
 
 ## Technologies Used
 *   HTML – Structure of the webpage[1][3].
